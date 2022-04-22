@@ -1,4 +1,4 @@
-/* body {
+body {
     background-color: #212529;
 }
 h3 {
@@ -6,7 +6,7 @@ h3 {
 }
 .texto {
     color: white;
-} */
+}
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -31,3 +31,13 @@ h3 {
     float: inline-end;
 }
 
+.card {
+    background-color: #5c5b5b;
+}
+
+.card-text {
+    color: white;
+}
+.card-title {
+    color: white;
+}
