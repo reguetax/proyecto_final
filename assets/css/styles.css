@@ -1,0 +1,33 @@
+/* body {
+    background-color: #212529;
+}
+h3 {
+    color: white;
+}
+.texto {
+    color: white;
+} */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 {
+        padding-top: 20%; 
+        grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.textoh1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: white;
+}
+
+.imagenperfil {
+    float: inline-end;
+}
+
