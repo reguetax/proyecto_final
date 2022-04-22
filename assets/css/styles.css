@@ -1,8 +1,18 @@
 body {
     background-color: #212529;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Akshar', sans-serif;
+
 }
 h3 {
+    font-family: 'Akshar', sans-serif;
     color: white;
+}
+h5{
+    font-family: 'Akshar', sans-serif;
+
 }
 .texto {
     color: white;
